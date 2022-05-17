@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&family=Roboto+Flex:opsz@8..144&display=swap');
+body {
+    background-color: wheat;
+}
+.heading-1 {
+    color: coral;
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    animation: heading1;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes heading1{
+    0%{top: -250px;}
+    100%{top: 0px;}
+}
+.picture-align {
+    text-align: center; 
+}
+.kana{
+    opacity: 0;
+    position: relative;
+    border-radius: 45%;
+    vertical-align: middle;
+    text-align: center;
+    width: 450px;
+    animation: kana;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes kana {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.heading-2{
+color: coral;
+position: relative;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+animation: heading2;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+}
+
+@keyframes heading2{
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+
+    }
+
+}
+.ingirdients{
+    border: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+
+
+}
+.ingirdients-table {
+    border: 1px solid black;
+    margin: 0% auto;
+}
+.instructions{
+    border: 1px solid black;
+    width:  50%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.instructions ol {
+    border:  1px solid red;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 75%;
+}
+
+.allikas{
+    color: coral;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-border{
+    border: 1px;
+    width: 50%;
+    padding-top: 5%;
+    margin: 0 auto;
+}
+
+.footer-1{
+    text-align: center;
+} 
